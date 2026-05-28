@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Peersky Onboarding Extension",
   "short_name": "Peersky Onboarding",
-  "author": "Peersky Browser Team",
+  "author": "Akhilesh Thite",
   "version": "1.0.0",
   "description": "Export tabs for Peersky Browser migration.",
   "icons": {
@@ -28,7 +28,7 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "onboarding-extension@peersky.org",
+      "id": "onboarding-extension@p2plabs.xyz",
       "strict_min_version": "109.0"
     }
   }
