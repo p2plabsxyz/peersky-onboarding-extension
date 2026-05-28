@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Peersky Onboarding Extension",
   "short_name": "Peersky Onboarding",
-  "author": "Peersky Browser Team",
+  "author": "Akhilesh Thite",
   "version": "1.0.0",
   "description": "Export tabs and installed extensions for Peersky Browser migration.",
   "icons": {
