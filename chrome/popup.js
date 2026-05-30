@@ -75,7 +75,8 @@ async function getTabsData() {
 }
 
 async function getExtensionsData() {
-  const extensions = await chrome.management.getAll();
+  const allItems = await chrome.management.getAll();
+  const extensions = allItems.filter(ext => ext.type === 'extension' && ext.id !== chrome.runtime.id);
   return extensions.map(ext => ({
     id: ext.id,
     name: ext.name,
