@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Peersky Onboarding Extension</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-title-container">
+        <img src="assets/icon32.png" alt="Peersky Logo" class="logo">
+        <h1>Peersky Onboarding Extension</h1>
+      </div>
+      <p>Select what to export for your transition to Peersky Browser.</p>
+    </header>
+    
+    <main>
+      <label class="option-row">
+        <input type="checkbox" id="exportTabs" checked>
+        <span class="custom-checkbox"></span>
+        <div class="option-text">
+          <span class="title">Export Tabs</span>
+          <span class="desc">Save all your open windows and tabs.</span>
+        </div>
+      </label>
+
+      <label class="option-row">
+        <input type="checkbox" id="exportExtensions" checked>
+        <span class="custom-checkbox"></span>
+        <div class="option-text">
+          <span class="title">Export Extensions</span>
+          <span class="desc">Save a list of your installed extensions.</span>
+        </div>
+      </label>
+    </main>
+
+    <footer>
+      <button id="exportBtn" class="primary-btn">Export JSON</button>
+      <div id="status" class="status-msg" role="status" aria-live="polite" aria-atomic="true"></div>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
