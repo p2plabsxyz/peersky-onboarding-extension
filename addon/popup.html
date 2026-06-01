@@ -18,24 +18,25 @@
     <main>
       <div class="info-card">
         <div class="info-header">
-          <span class="icon">📁</span>
+          <span class="icon">&#128193;</span>
           <span class="title">Export Tabs</span>
         </div>
         <p class="desc">Save all your open windows and tabs to import directly into Peersky Browser.</p>
+        <p class="desc sanitizer-notice">Internal pages (chrome://, file://) and URLs containing credentials are skipped.</p>
       </div>
 
       <div class="notice-card">
         <div class="notice-header">
-          <span class="icon">⚠️</span>
+          <span class="icon">&#9888;&#65039;</span>
           <span class="title">Firefox Extensions Notice</span>
         </div>
         <p class="desc">Firefox add-ons cannot be imported directly because Peersky is Chromium-based. You will need to install them manually.</p>
         <div class="store-links">
-          <a href="https://chromewebstore.google.com" target="_blank" class="store-link chrome-store">
-            <span class="store-icon">🌐</span> Chrome Web Store
+          <a href="https://chromewebstore.google.com" target="_blank" rel="noopener noreferrer" class="store-link chrome-store">
+            <span class="store-icon">&#129513;</span> Chrome Web Store
           </a>
-          <a href="https://addons.mozilla.org" target="_blank" class="store-link firefox-store">
-            <span class="store-icon">🦊</span> Firefox Add-ons
+          <a href="https://addons.mozilla.org" target="_blank" rel="noopener noreferrer" class="store-link firefox-store">
+            <span class="store-icon">&#129418;</span> Firefox Add-ons
           </a>
         </div>
       </div>
