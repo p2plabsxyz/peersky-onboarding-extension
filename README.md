@@ -14,6 +14,10 @@ This repository is split into two packages to accommodate browser-specific capab
 - **`chrome/`**: For Chromium-based browsers (Chrome, Brave, Edge, Opera, etc.). Exports both open tabs and list of installed extensions.
 - **`addon/`**: For Firefox. Exports open tabs only and provides guidance for manual extension migration.
 
+<div align="center">
+    <img src="/demo.png" alt="PeerSky Browser onboarding extension firefox and chrome demo screenshots">
+</div>
+
 ---
 
 ## Features
