@@ -1,5 +1,13 @@
 # Peersky Onboarding Extension
 
+<div align="center">
+  
+| <img src="https://unpkg.com/@browser-logos/firefox/firefox_16x16.png" width="16" height="16"> [Firefox](https://www.mozilla.org/firefox/new/) \| [Firefox for Android](https://play.google.com/store/apps/details?id=org.mozilla.firefox) | <img src="https://unpkg.com/@browser-logos/chrome/chrome_16x16.png" width="16" height="16"> [Chrome](https://www.google.com/chrome/) \| <img src="https://unpkg.com/@browser-logos/brave/brave_16x16.png" width="16" height="16"> [Brave](https://brave.com/) \| <img src="https://unpkg.com/@browser-logos/opera/opera_16x16.png" width="16" height="16"> [Opera](https://www.opera.com/) \| <img src="https://unpkg.com/@browser-logos/edge/edge_16x16.png" width="16" height="16"> [Edge](https://www.microsoft.com/en-us/edge/download) |
+|---|---|
+| [![Install From AMO](https://img.shields.io/amo/v/peersky-onboarding-extension?label=Firefox%20Add-on&style=social)](https://addons.mozilla.org/en-US/firefox/addon/peersky-onboarding-extension/) | [![Install from Chrome Store](https://img.shields.io/chrome-web-store/v/knegonpkagnjmkndlfhppgnpdmecklji?label=Chrome%20Web%20Store&style=social)](https://chromewebstore.google.com/detail/peersky-onboarding-extension/knegonpkagnjmkndlfhppgnpdmecklji) |
+
+</div>
+
 A minimalistic extension designed to export your data into a single JSON file, allowing for a smooth migration and onboarding experience into the Peersky Browser.
 
 This repository is split into two packages to accommodate browser-specific capabilities:
