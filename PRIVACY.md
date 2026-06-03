@@ -1,3 +1,11 @@
 # Privacy Policy
 
-This extension reads your open tabs and installed extensions, formats them into a JSON file, and triggers a local download to your Downloads folder. No data is transmitted to any server, stored remotely, or shared with third parties. All processing happens locally in your browser.
+This extension accesses:
+- Open tabs (including URLs, page titles, and window/tab structure)
+- Installed extensions (Chromium-based browsers only)
+
+This data is used only to generate a local JSON export file for browser migration purposes. The file is downloaded directly to the user's device.
+
+No data is transmitted to any server, stored remotely, or shared with third parties.
+
+All processing happens locally within the browser. The extension does not collect analytics, track users, or persist any data after export.
